@@ -33,20 +33,24 @@ h2 {
 nav {
   position: sticky;
   background-color: white;
+  width: 100%;
+  height: 120px;
   top: 0;
   left: 0;
   margin: 0;
-  padding-bottom: 5%;
+ /* padding-bottom: 5%;*/
   z-index:1;
 }
 
 .nav {
   list-style-type: none;
   background-color: white;
+  position: sticky;
+  width: 100%;
   top: 0;
   left: 0;
   margin: 0;
-  height: 80px;
+  height: 120px;
 }
 .nav-logo{
   height: 20px;
@@ -114,6 +118,9 @@ h1 {
 /* End of landing page styling */
 
 /* Start of the problem page styling */
+.problem{
+  width: 99%;
+}
 .iframe{
   display: center;
 }
